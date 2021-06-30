@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17701" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TrialApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="oIE-FB-vKa">
+                            <items>
+                                <label alignment="left" text="Iam Apple Watch" id="nlK-hL-4en"/>
+                            </items>
+                        </group>
+                        <label alignment="center" text="....." id="0dg-Cr-UoZ"/>
+                    </items>
+                    <connections>
+                        <outlet property="lbl" destination="0dg-Cr-UoZ" id="2NC-qw-QgJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-14" y="164"/>
+        </scene>
+    </scenes>
+</document>
